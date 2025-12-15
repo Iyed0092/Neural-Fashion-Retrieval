@@ -19,8 +19,8 @@
 
 Built on the **DeepFashion** dataset, the system leverages **OpenAI's CLIP (ViT-B/32)** to project images and text into a shared high-dimensional vector space, indexed by **Meta's FAISS** for millisecond-latency retrieval.
 
-(For a Faster execution please run it on gpu because the embeddings can take long time on cpu. Here I did use my RTX 4060 8GB Laptop
-
+**(For a Faster execution please run it on gpu because the embeddings can take long time on cpu. Here I did use my RTX 4060 8GB Laptop
+**
 ## ✨ Key Features
 
 * **⚡ Zero-Shot Multimodal Search:** Query the database using Text-to-Image or Image-to-Image without training custom labels.
